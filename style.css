@@ -1,0 +1,46 @@
+body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#pog-stack {
+    background: grey;
+    height: 500px;
+    margin: 15px auto;
+    position: relative;
+    width: 1000px;
+    z-index: 1;
+}
+
+.pog {
+    height: 120px;
+    position: absolute;
+    width: 350px;
+    z-index: 10;
+}
+
+.pog-red {
+    background: url("./Pogs.png") -425px -25px;
+}
+
+.pog-blue {
+    background: url("./Pogs.png") -25px -25px;
+}
+
+.pog-green {
+    background: url("./Pogs.png") -25px -195px;
+}
+
+.pog-yellow {
+    background: url("./Pogs.png") -425px -195px;
+}
+
+.pog-purple {
+    background: url("./Pogs.png") -25px -365px;
+}
+
+.pog-orange {
+    background: url("./Pogs.png") -425px -365px;
+}
